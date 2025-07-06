@@ -10,8 +10,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: isProd ? '/edfu.dev/' : '',
-  basePath: isProd ? '/edfu.dev' : '',
+  /*assetPrefix: isProd ? '/edfu.dev/' : '',
+  basePath: isProd ? '/edfu.dev' : '',*/
   output: 'export',
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
   experimental: {
